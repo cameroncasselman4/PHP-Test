@@ -1,0 +1,41 @@
+/* header */
+#showcase {
+    color: #fff;
+    background: #333;
+    text-align: center;
+    height: 300px;
+}
+#showcase h1 {
+    padding-top: 100px;
+    padding-bottom:0px;
+}
+#section-one {
+    
+}
+.section-one-header {
+    padding: 30px;
+    text-align:center;
+    background:#2F66A9;
+    color:#fff; 
+}
+#section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.media {
+    margin: 20px;
+    width: 300px;
+    color: black;
+}
+
+img {
+    max-width:100%;
+    height: auto;
+    
+    transition: 0.5s all ease;
+}
+img:hover {
+    transform: scale(0.97);
+    transition: 0.5s all ease; 
+}
